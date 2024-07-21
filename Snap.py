@@ -9,9 +9,9 @@ cursor.execute('''
 CREATE TABLE IF NOT EXISTS Safir (
     safir_id INTEGER PRIMARY KEY,
     phone INTEGER,
-    car_id,
+    car_id INTEGER,
     license_id INTEGER,
-    waller_id INTEGER
+    wallet_id INTEGER
 )
 ''')
 cursor.execute('''
