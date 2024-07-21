@@ -27,9 +27,6 @@ CREATE TABLE IF NOT EXISTS mosafer(
     wallet_id INTEGER
 )
 ''')
-cursor.execute('''
-
-''')
 
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS wallet(
